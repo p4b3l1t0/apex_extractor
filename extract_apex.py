@@ -19,5 +19,8 @@ def extract_controllers(file_path):
 # Usage example
 file_path = 'app.js'  # Replace with the path to your app.js file
 controllers = extract_controllers(file_path)
-for controller in controllers:
-    print(controller)
+
+# Write to object.txt
+with open('object.txt', 'w', encoding='utf-8') as output_file:
+    for controller in controllers:
+        output_file.write(controller + '\n')
