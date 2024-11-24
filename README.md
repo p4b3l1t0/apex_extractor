@@ -17,7 +17,7 @@ The script utilizes regular expressions to search for patterns indicating Apex a
 2. Place your JavaScript file in the same directory as the script or specify the path.
 3. Run the script using Python 3:
 
-python3 extract.py <path_to_your_app.js_file>
+`python3 extract.py <path_to_your_app.js_file>` 
 
 Replace `<path_to_your_app.js_file>` with the path to your JavaScript file.
 
